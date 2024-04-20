@@ -15,12 +15,12 @@ public class Rettangolo {
 		   altezza=h;
 	  }
 	  //Metodi 
-	  //Il metodo calcolaArea prende in input i valori della base e dell'altezza del rettangolo e restituisce l'area della figura
+	  //Il metodo calcolaArea restituisce l'area della figura
 	  int calcolaArea() {
 		  int area = base*altezza;
 		  return area;
 	  }
-	//Il metodo calcolaPerimetro prende in input i valori della base e dell'altezza del rettangolo e restituisce il perimetro della figura	  
+	//Il metodo calcolaPerimetro restituisce il perimetro della figura	  
 	  int calcolaPerimetro() {
 		  int perimetro = 2*(base + altezza);
 		  return perimetro;
